@@ -1,44 +1,53 @@
-# I-wish
- Javafx-Based Application
+# Overview
 
-# Abstract
-i-Wish is a desktop application where the user adds friends, creates his wish list, checks his friends’ wish lists and makes his friends happy by contribution in buying them items from their wish lists.
-Specifications
-# Client
-1.
-Register/Sign-in
-2.
-Add/Remove Friend.
-3.
-Accept/Decline Friend Request
-4.
-Create, Update, Delete my Wish List
-5.
-View my Friends list
-6.
-View my Friends Wish List
-7.
-Contribute in buying one or more items from a friend’s Wish List with specific amount of money of its price.
-8.
-[As Buyer] Receive a notification on the completion of a gift item price
-9.
-[As Receiver] Receive a notification that an item of the wish list has been bought by specific friend(s).
-10.
-Friendly GUI [please make the user happy and let him enjoy the APP :) ]
-# Server
-11.
-Start/Stop
-12.
-Manipulate the Database:
-•
-Connection
-•
-Queries
-•
-Adding items from where the users can build their wish list (via admin, or database insertion, or Amazon web service, or any restful web service or web crawling (Bonus))
-13.
-Handles the clients connections
-14.
-Handles the clients requests
-15.
-Handles the completion of the shares of a gift item and inform the participated clients, then inform the wish list owner that an item has been gifted to him by specific friend(s)
+The i-Wish project is a desktop application designed to bring joy and happiness by facilitating the process of sharing and fulfilling wishes among friends. Users can connect with friends, create and manage wish lists, and contribute towards fulfilling the wishes of their friends. The application is divided into client-side and server-side functionalities to ensure smooth communication and data management.
+
+# Client-side Specifications
+
+1. Register/Sign-in
+   Allows users to create an account or sign in to an existing one.
+
+2. Add/Remove Friend
+   Enables users to add or remove friends from their list.
+
+3. Accept/Decline Friend Request
+   Gives users the ability to accept or decline incoming friend requests.
+
+4. Create, Update, Delete My Wish List
+   Allows users to manage their own wish list by creating, updating, or deleting items.
+
+5. View My Friends List
+   Displays a list of friends connected to the user's account.
+
+6. View My Friends Wish List
+   Shows the wish list of selected friends, allowing users to explore and contribute.
+
+7. Contribute in Buying Items
+   Permits users to contribute a specific amount of money towards buying items from their friends' wish lists.
+
+8. [As Buyer] Receive Notification
+   Receive a notification upon the completion of a gift item's price.
+
+9. [As Receiver] Receive Notification
+   Get notified when an item from the wish list has been bought by specific friend(s).
+
+10. Friendly GUI
+    A user-friendly graphical interface to ensure a delightful experience for the users.
+
+# Server-side Specifications
+
+11. Start/Stop
+    Controls the server's start and stop functionalities.
+
+12. Manipulate the Database
+    Manages database connections.
+    Executes queries to fetch and update data.
+    Supports adding items to the database for users to build their wish lists.
+13. Handles Client Connections
+    Manages incoming connections from clients.
+
+14. Handles Client Requests
+    Processes requests from clients related to friends, wish lists, and contributions.
+
+15. Handles Gift Item Completion
+    Notifies participants about the completion of the shares for a gift item. Informs the wish list owner that an item has been gifted by specific friend(s).
